@@ -1,0 +1,21 @@
+@import "_variables.scss";
+
+.pencils{
+   height: 20rem; 
+   border-radius: 100%;
+   transition: all 0.3s;
+}
+
+.pencils:hover{
+    filter: contrast(10);
+}
+
+.ghost{
+    height: 20rem;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.ghost:hover{
+    opacity: 0;
+}

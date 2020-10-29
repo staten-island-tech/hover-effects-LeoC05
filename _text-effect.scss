@@ -1,0 +1,12 @@
+@import "_variables.scss";
+
+.announcement{
+    font-size: 5rem;
+    transition: all 5s;
+    text-transform: uppercase;
+    color: (color(halloween));
+}
+
+.announcement:hover{
+    transform: skewY(-90deg);
+}

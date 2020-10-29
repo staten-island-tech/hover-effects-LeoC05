@@ -1,52 +1,99 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: red;
+  background-color: #66CDAA;
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
+  color: #B8860B;
 }
 
 .btn-1:hover {
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
 }
 
-.btn-1::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 10rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.btn-2:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pencils {
+  height: 20rem;
+  border-radius: 100%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.btn:hover::after {
-  -webkit-transform: scaleX(1.5) scaleY(1.6);
-          transform: scaleX(1.5) scaleY(1.6);
+.pencils:hover {
+  -webkit-filter: contrast(10);
+          filter: contrast(10);
+}
+
+.ghost {
+  height: 20rem;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.ghost:hover {
   opacity: 0;
 }
 
-.btn:active {
-  -webkit-transform: translateY(-1px);
-          transform: translateY(-1px);
-  -webkit-transform: scaleX(1.5) scaleY(1.6);
-          transform: scaleX(1.5) scaleY(1.6);
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.announcement {
+  font-size: 5rem;
+  -webkit-transition: all 5s;
+  transition: all 5s;
+  text-transform: uppercase;
+  color: #eb6123;
+}
+
+.announcement:hover {
+  -webkit-transform: skewY(-90deg);
+          transform: skewY(-90deg);
 }
 
 .container {
